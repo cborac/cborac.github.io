@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+     margin: 0;
+     width: 100%;
+     min-height: 100%;
+     background: #fff;
+     font-family: "Poppins";
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.introbg {
+     background: var(--accent-color);
+     height: 30rem;
+     width: 100%;
+     display: flex;
+     justify-content: top;
+     align-items: center;
+     flex-direction: column;
+     color: #fff;
+     overflow: hidden;
+     position: relative;
+}
+
+.intro-box {
+     position: absolute;
+     height: 25rem;
+     width: 25rem;
+     background: #fff;
+     bottom: -12.5rem;
+     transform: rotate(45deg);
+     border-radius: 4rem;
+     opacity: .2;
+}
+
+.intro-img {
+     position: absolute;
+     height: 25rem;
+     bottom: 0px;
+     transform-origin: center bottom;
+}
+
+.introbg > * {
+     margin: 0;
+}
+
+.nav-name {
+     font-weight: 600;
+     font-size: 3em;
+     margin-top: 2rem;
+}
+
+.title {
+     color: var(--accent-color);
+     margin: 0;
+}
+
+.tag {
+     color: var(--accent-color);
+     border-radius: 6px;
+     position: relative;
+     text-align: center;
+     display: inline;
+     padding: 1px;
+     width: fit-content;
+     padding-right: 6px;
+     padding-left: 6px;
+}
+
+.tag::before {
+     content: "­";
+     background: var(--accent-color);
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     opacity: .2;
+     border-radius: 6px;
+     transform: translateX(-6px);
+     margin: 0;
+}
+
+.tag[auto-color]::before {
+     display: none !important;
+}
+
+.github {
+     color: #212121;
+}
+
+.github::before {
+     background: #ebebeb;
+}
+
+.main-container {
+     width: 75vw;
+     margin-top: 5rem;
+     display: flex;
+}
+
+.tags-inline > p {
+     display: inline-block;
+     margin: 0;
+     margin-top: 4px;
+}
+
+.tags-inline {
+     display: inline;
+}
+
+.tags-container {
+     margin-left: 1rem;
+     width: 25%;
+}
+
+.article {
+     width: 75%;
+     margin-top: 3rem;
+}
+
+.article > * {
+     margin: 0;
+}
+
+.article > p {
+     margin-left: 8px;
+}
+
+.footer {
+     width: 100%;
+     background: var(--accent-color);
+     height: 5rem;
+     margin-top: 5rem;
+}
+
+.footer {
+     color: rgba(255, 255, 255, 0.329);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.footer > p {
+     margin: 0;
+     font-size: .9em;
+}
+
+@media only screen and (max-width: 1080px) {
+     .article {
+          width: 90vw;
+     }
+
+     .main-container > .article {
+          width: 90%;
+     }
+
+     .main-container {
+          width: 90vw;
+     }
+}
+
+@media only screen and (max-width: 1027px) {
+     .main-container {
+          flex-direction: column;
+          margin-top: 1rem;
+     }
+
+     .main-container > * {
+          width: 100%;
+          margin: 0;
+     }
+
+     .main-container > .tags-container {
+          margin-top: 2rem;
+     }
+}
