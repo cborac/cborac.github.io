@@ -8,6 +8,8 @@ el.innerHTML = `
      }
 `
 
+document.querySelector('meta[name="theme-color"]').setAttribute("content", randomColor)
+
 document.body.append(el)
 
 ScrollReveal({
