@@ -1,4 +1,4 @@
-const colors = ["#3742fa", "#2ed573", "#ff6348", "#ff4757"]
+const colors = ["#3742fa", "#ff6348", "#ff4757"]
 const randomColor = colors[Math.floor(Math.random() * colors.length)]
 
 const el = document.createElement("style")
