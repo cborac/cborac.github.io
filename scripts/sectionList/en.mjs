@@ -76,7 +76,8 @@ export const sections = [{
           title: "🪶 SUNPOFEST'22",
           description: "An activity organized by SUNPO Community. Was the IT Team and a member of the administrative staffs.",
           buttons: [{
-               title: "Certificate"
+               title: "Certificate",
+               href: "/assets/certs/SUNPOFEST.pdf"
           }]
      }, {
           title: "🌲 Table-Ronde 2022",
@@ -99,10 +100,10 @@ export const sections = [{
                href: "https://www.geleceginyildizlari.com/en/programlar/summer-development-camp/",
           }, {
                title: "Certificate (2015)",
-               href: "",
+               href: "/assets/certs/FS2015.jpeg",
           }, {
                title: "Certificate (2016)",
-               href: ""
+               href: "/assets/certs/FS2016.jpeg"
           }]
      }, {
           title: "⭐ Future Stars (Camper at Film Camp)",
@@ -112,16 +113,24 @@ export const sections = [{
                href: "https://www.geleceginyildizlari.com/en/programlar/movie-camp/"
           }, {
                title: "Certificate (2017)",
-               href: ""
+               href: "/assets/certs/FS2017.jpeg"
           }, {
                title: "Certificate (2018)",
-               href: ""
+               href: "/assets/certs/FS2018.jpeg"
           }, {
-               title: "Certificate (2019)"
+               title: "Certificate (2019)",
+               href: "/assets/certs/FS2019.jpeg"
           }]
      }, {
-          title: "⭐ Future Stars (Guide at Leadership Programme)",
-          description: "The term guide may confuse you but it's the step before becoming a counselour at FS. After completing this programme, I'll write upon the subject here :p"
+          title: "⭐ Future Stars (Leadership Academy)",
+          description: "This 3 week intensive program's objective is to provide the participants with the necessary skills and knowledge related to working with children and youth with a strong focus on programing planning and execution. While in this program, participants also develop in leadership, teambuilding and community development skills.",
+          buttons: [{
+               title: "Transcript",
+               href: "/assets/certs/FSTranscript.pdf"
+          }, {
+               title: "Recommendation",
+               href: "/assets/certs/FSRecommendation.pdf"
+          }]
      }, {
           title: "🌏 Outstanding Delegate (HAYDARPASAMUN)",
           description: "HAYDARPASAMUN'22 • IOC",
