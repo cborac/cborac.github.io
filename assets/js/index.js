@@ -23,8 +23,8 @@ ScrollReveal({
      scale: .7
 }).reveal(".intro-anim");
 
-document.querySelectorAll(".tag[auto-color]").forEach(x => {
-     const color = x.attributes.getNamedItem("auto-color").value
+document.querySelectorAll(".tag[color]").forEach(x => {
+     const color = x.attributes.getNamedItem("color").value
      x.style.color = color
      x.style.background = color + "1A"
 })

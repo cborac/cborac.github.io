@@ -81,7 +81,7 @@ body {
      margin: 0;
 }
 
-.tag[auto-color]::before {
+.tag[color]::before {
      display: none !important;
 }
 

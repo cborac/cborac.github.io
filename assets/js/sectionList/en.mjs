@@ -42,22 +42,24 @@ export const sections = [{
           title: "🇫🇷 French",
           description: "Independent User"
      }]
-}, {
-     title: "Projects",
-     experiences: [{
-          title: "🌐 WebXmun",
-          description: "WebXmun is a website providing basic tools for an MUN session. It includes other features that some other products don't provide.",
-          buttons: [{
-               title: "WebXmun"
-          }]
-     }, {
-          title: "🌿 JourVert",
-          description: "Ecological weekly e-newspaper informing the consumer.",
-          buttons: [{
-               title: "JourVert"
-          }]
-     }]
-}, {
+},
+// {
+//      title: "Projects",
+//      experiences: [{
+//           title: "🌐 WebXmun",
+//           description: "WebXmun is a website providing basic tools for an MUN session. It includes other features that some other products don't provide.",
+//           buttons: [{
+//                title: "WebXmun"
+//           }]
+//      }, {
+//           title: "🌿 JourVert",
+//           description: "Ecological weekly e-newspaper informing the consumer.",
+//           buttons: [{
+//                title: "JourVert"
+//           }]
+//      }]
+// },
+{
      title: "Experiences",
      experiences: [{
           title: "💻 Internship at L Teknoloji",
@@ -68,109 +70,121 @@ export const sections = [{
           }]
      }, {
           title: "🪶 SUNPO Community",
-          description: "Since Sept 2021 • A Part of Project Development Team & Instgram Team"
+          description: "2021-2022 • A Part of Project Development Team & Instgram Team"
+     }, {
+          title: "🦠 iGEM Team Leader",
+          description: "Since Sept 2022 • Leader of Saint-Joseph Team"
      }]
 }, {
      title: "Activities",
-     experiences: [{
-          title: "🪶 SUNPOFEST'22",
-          description: "An activity organized by SUNPO Community. Was the IT Team and a member of the administrative staffs.",
-          buttons: [{
-               title: "Certificate",
-               href: "/assets/certs/SUNPOFEST.pdf"
-          }]
-     }, {
-          title: "🌲 Table-Ronde 2022",
-          description: "An event organized by The French Institituon in Turkey where debates about environment took place.<br>Was in the preperation team and attended as a press member.",
-          buttons: [{
-               title: "Certificate"
-          }]
-     }, {
-          title: "🪶 FRZAL Summit",
-          description: "An activity organized by Fatin Rüştü Zorlu Anatolian High School. Was a member of the public relations team.",
-          buttons: [{
-               title: "Certificate",
-               href: "/assets/certs/FRZAL.pdf"
-          }]
-     }, {
-          title: "⭐ Future Stars (Camper at Summer Development Camp)",
-          description: "Future Stars (FS) summer camps had a great impact on my life. At first, I really didn't want to go, but after my first camp, I became addicted and continued to participate for many years.",
-          buttons: [{
-               title: "Website",
-               href: "https://www.geleceginyildizlari.com/en/programlar/summer-development-camp/",
+     experiences: [
+          {
+               title: "📈 Harvard Young Global Leaders Program",
+               description: "An intensive 4-day program led by Harvard students focusing on leadership activities, a contextual problem and how to solve it through a group effort.",
+               buttons: [{
+                    title: "Cerificate",
+                    href: "/assets/certs/HPYL.pdf"
+               }]
+          },
+          {
+               title: "🪶 SUNPOFEST'22",
+               description: "An activity organized by SUNPO Community. Was the IT Team and a member of the administrative staffs.",
+               buttons: [{
+                    title: "Certificate",
+                    href: "/assets/certs/SUNPOFEST.pdf"
+               }]
           }, {
-               title: "Certificate (2015)",
-               href: "/assets/certs/FS2015.jpeg",
+               title: "🌲 Table-Ronde 2022",
+               description: "An event organized by The French Institituon in Turkey where debates about environment took place.<br>Was in the preperation team and attended as a press member.",
+               buttons: [{
+                    title: "Certificate"
+               }]
           }, {
-               title: "Certificate (2016)",
-               href: "/assets/certs/FS2016.jpeg"
-          }]
-     }, {
-          title: "⭐ Future Stars (Camper at Film Camp)",
-          description: "Cinema has always been a grand interest for me. I always wanted to be in cinematography, well FS had the perfect camp. At Film Camp, I had an unforgetable experiences and friendships.",
-          buttons: [{
-               title: "Website",
-               href: "https://www.geleceginyildizlari.com/en/programlar/movie-camp/"
+               title: "🪶 FRZAL Summit",
+               description: "An activity organized by Fatin Rüştü Zorlu Anatolian High School. Was a member of the public relations team.",
+               buttons: [{
+                    title: "Certificate",
+                    href: "/assets/certs/FRZAL.pdf"
+               }]
           }, {
-               title: "Certificate (2017)",
-               href: "/assets/certs/FS2017.jpeg"
+               title: "⭐ Future Stars (Camper at Summer Development Camp)",
+               description: "Future Stars (FS) summer camps had a great impact on my life. At first, I really didn't want to go, but after my first camp, I became addicted and continued to participate for many years.",
+               buttons: [{
+                    title: "Website",
+                    href: "https://www.geleceginyildizlari.com/en/programlar/summer-development-camp/",
+               }, {
+                    title: "Certificate (2015)",
+                    href: "/assets/certs/FS2015.jpeg",
+               }, {
+                    title: "Certificate (2016)",
+                    href: "/assets/certs/FS2016.jpeg"
+               }]
           }, {
-               title: "Certificate (2018)",
-               href: "/assets/certs/FS2018.jpeg"
+               title: "⭐ Future Stars (Camper at Film Camp)",
+               description: "Cinema has always been a grand interest for me. I always wanted to be in cinematography, well FS had the perfect camp. At Film Camp, I had an unforgetable experiences and friendships.",
+               buttons: [{
+                    title: "Website",
+                    href: "https://www.geleceginyildizlari.com/en/programlar/movie-camp/"
+               }, {
+                    title: "Certificate (2017)",
+                    href: "/assets/certs/FS2017.jpeg"
+               }, {
+                    title: "Certificate (2018)",
+                    href: "/assets/certs/FS2018.jpeg"
+               }, {
+                    title: "Certificate (2019)",
+                    href: "/assets/certs/FS2019.jpeg"
+               }]
           }, {
-               title: "Certificate (2019)",
-               href: "/assets/certs/FS2019.jpeg"
-          }]
-     }, {
-          title: "⭐ Future Stars (Leadership Academy)",
-          description: "This 3 week intensive program's objective is to provide the participants with the necessary skills and knowledge related to working with children and youth with a strong focus on programing planning and execution. While in this program, participants also develop in leadership, teambuilding and community development skills.",
-          buttons: [{
-               title: "Transcript",
-               href: "/assets/certs/FSTranscript.pdf"
+               title: "⭐ Future Stars (Leadership Academy)",
+               description: "This 3 week intensive program's objective is to provide the participants with the necessary skills and knowledge related to working with children and youth with a strong focus on programing planning and execution. While in this program, participants also develop in leadership, teambuilding and community development skills.",
+               buttons: [{
+                    title: "Transcript",
+                    href: "/assets/certs/FSTranscript.pdf"
+               }, {
+                    title: "Recommendation",
+                    href: "/assets/certs/FSRecommendation.pdf"
+               }]
           }, {
-               title: "Recommendation",
-               href: "/assets/certs/FSRecommendation.pdf"
-          }]
-     }, {
-          title: "🌏 Outstanding Delegate (HAYDARPASAMUN)",
-          description: "HAYDARPASAMUN'22 • IOC",
-          buttons: [{
-               title: "Award"
+               title: "🌏 Outstanding Delegate (HAYDARPASAMUN)",
+               description: "HAYDARPASAMUN'22 • IOC",
+               buttons: [{
+                    title: "Award"
+               }, {
+                    title: "Certificate"
+               }]
           }, {
-               title: "Certificate"
-          }]
-     }, {
-          title: "🌏 Outstanding Delegate (BOGAZICIMUN Advanced)",
-          description: "BOGAZICIMUN Advanced'22 • ECOFIN Committee",
-          buttons: [{
-               title: "Award",
-               href: "/assets/certs/BOGAZICIMUN22_AWARD.pdf"
+               title: "🌏 Outstanding Delegate (BOGAZICIMUN Advanced)",
+               description: "BOGAZICIMUN Advanced'22 • ECOFIN Committee",
+               buttons: [{
+                    title: "Award",
+                    href: "/assets/certs/BOGAZICIMUN22_AWARD.pdf"
+               }, {
+                    title: "Certificate",
+                    href: "/assets/certs/BOGAZICIMUN22_CERT.pdf"
+               }]
           }, {
-               title: "Certificate",
-               href: "/assets/certs/BOGAZICIMUN22_CERT.pdf"
+               title: "🌏 Delegate (HASALMUN)",
+               description: "HASALMUN'22 • GAISF Committee",
+               buttons: [{
+                    title: "Certificate",
+                    href: "/assets/certs/HASALMUN22.pdf"
+               }]
+          }, {
+               title: "🌏 Delegate (MEDIPOLMUN)",
+               description: "MEDIPOLMUN'22 • INTERPOL Committee",
+               buttons: [{
+                    title: "Certificate",
+                    href: "/assets/certs/MEDIPOLMUN22.pdf"
+               }]
+          }, {
+               title: "🌏 Delegate (MFINUE)",
+               description: "MFINUE'20 • MiniMNU",
+               buttons: [{
+                    title: "Certificate",
+                    href: "/assets/certs/MFINUE20.pdf"
+               }]
           }]
-     }, {
-          title: "🌏 Delegate (HASALMUN)",
-          description: "HASALMUN'22 • GAISF Committee",
-          buttons: [{
-               title: "Certificate",
-               href: "/assets/certs/HASALMUN22.pdf"
-          }]
-     }, {
-          title: "🌏 Delegate (MEDIPOLMUN)",
-          description: "MEDIPOLMUN'22 • INTERPOL Committee",
-          buttons: [{
-               title: "Certificate",
-               href: "/assets/certs/MEDIPOLMUN22.pdf"
-          }]
-     }, {
-          title: "🌏 Delegate (MFINUE)",
-          description: "MFINUE'20 • MiniMNU",
-          buttons: [{
-               title: "Certificate",
-               href: "/assets/certs/MFINUE20.pdf"
-          }]
-     }]
 }, {
      title: "Certifications",
      experiences: [{
@@ -186,6 +200,13 @@ export const sections = [{
           buttons: [{
                title: "Certificate",
                href: "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/sardonyx/Web%20Programlama/402"
+          }]
+     }, {
+          title: "💻 REST API (Intermediate)",
+          description: "Issued by: HackerRank (Dec 2022)",
+          buttons: [{
+               title: "Certificate",
+               href: "https://www.hackerrank.com/certificates/f93379b904ab"
           }]
      }, {
           title: "💻 Node.js (Intermediate)",
