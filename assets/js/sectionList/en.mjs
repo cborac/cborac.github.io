@@ -223,6 +223,13 @@ export const sections = [{
                href: "https://www.hackerrank.com/certificates/abf454be3ba2"
           }]
      }, {
+          title: "💻 CSS",
+          description: "Issued by: HackerRank (Mar 2023)",
+          buttons: [{
+               title: "Certificate",
+               href: "https://www.hackerrank.com/certificates/c40deb19dc1b"
+          }]
+     }, {
           title: "💻 C# (Basic)",
           description: "Issued by: HackerRank (Aug 2021)",
           buttons: [{
