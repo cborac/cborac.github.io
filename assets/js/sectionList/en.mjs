@@ -188,6 +188,13 @@ export const sections = [{
 }, {
      title: "Certifications",
      experiences: [{
+          title: "🐍 Google IT Support Specialization",
+          description: "Issued by: Google • Coursera (March 2023)",
+          buttons: [{
+               title: "Certificate",
+               href: "https://www.coursera.org/account/accomplishments/specialization/certificate/G7C7CWQBR7MV"
+          }]
+     },{
           title: "🐍 Python for Everybody Specialization",
           description: "Issued by: University of Michigan • Coursera (May 2021)",
           buttons: [{
@@ -196,7 +203,7 @@ export const sections = [{
           }]
      }, {
           title: "🌐 Web Programming",
-          description: "Issued by: Turkcell Geleceğin Yazarları (Jun 2021)",
+          description: "Issued by: Turkcell Geleceğin Yazarları (June 2021)",
           buttons: [{
                title: "Certificate",
                href: "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/sardonyx/Web%20Programlama/402"
@@ -224,7 +231,7 @@ export const sections = [{
           }]
      }, {
           title: "💻 CSS",
-          description: "Issued by: HackerRank (Mar 2023)",
+          description: "Issued by: HackerRank (March 2023)",
           buttons: [{
                title: "Certificate",
                href: "https://www.hackerrank.com/certificates/c40deb19dc1b"
