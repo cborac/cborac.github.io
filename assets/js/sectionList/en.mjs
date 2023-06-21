@@ -40,28 +40,35 @@ export const sections = [{
           description: "Fluent"
      }, {
           title: "🇫🇷 French",
-          description: "Independent User"
+          description: "Independent User - B2"
      }]
 },
-// {
-//      title: "Projects",
-//      experiences: [{
-//           title: "🌐 WebXmun",
-//           description: "WebXmun is a website providing basic tools for an MUN session. It includes other features that some other products don't provide.",
-//           buttons: [{
-//                title: "WebXmun"
-//           }]
-//      }, {
-//           title: "🌿 JourVert",
-//           description: "Ecological weekly e-newspaper informing the consumer.",
-//           buttons: [{
-//                title: "JourVert"
-//           }]
-//      }]
-// },
+{
+     title: "Projects",
+     experiences: [{
+          title: "🌐 MFINUE Connect",
+          description: "Connect is a portal serving as a tool for organizing the annual MFINUE conference.",
+          buttons: [{
+               title: "Website",
+               href: "https://connect.mfinue.org"
+          }]
+     }]
+},
 {
      title: "Experiences",
      experiences: [{
+          title: "🦠 iGEM Team Leader",
+          description: "Since Sept 2022 • Leader of Saint-Joseph Team"
+     },
+     {
+          title: "🌐 Chief Technology Officer of MFINUE 2023",
+          description: "Since Apr 2023 • Sustain and develop technologies that are used in 2023's Francophone Model United Nations of Eurasia (MFINUE) conference",
+          buttons: [{
+               title: "mfinue.org",
+               href: "https://mfinue.org"
+          }]
+     },
+     {
           title: "💻 Internship at L Teknoloji",
           description: "Aug 2021 • Worked with ASP.NET environment (C#)",
           buttons: [{
@@ -71,9 +78,6 @@ export const sections = [{
      }, {
           title: "🪶 SUNPO Community",
           description: "2021-2022 • A Part of Project Development Team & Instgram Team"
-     }, {
-          title: "🦠 iGEM Team Leader",
-          description: "Since Sept 2022 • Leader of Saint-Joseph Team"
      }]
 }, {
      title: "Activities",
@@ -194,7 +198,7 @@ export const sections = [{
                title: "Certificate",
                href: "https://www.coursera.org/account/accomplishments/specialization/certificate/G7C7CWQBR7MV"
           }]
-     },{
+     }, {
           title: "🐍 Python for Everybody Specialization",
           description: "Issued by: University of Michigan • Coursera (May 2021)",
           buttons: [{
