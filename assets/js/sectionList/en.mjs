@@ -8,7 +8,7 @@ export const sections = [{
           description: "2019-2024",
           buttons: [{
                title: "School's Website",
-               href: "https://www.sj.k12.tr/index.php/en/"
+               href: "https://sj.k12.tr/"
           }]
      }]
 }, {
@@ -56,10 +56,7 @@ export const sections = [{
 },
 {
      title: "Experiences",
-     experiences: [{
-          title: "🦠 iGEM Team Leader",
-          description: "Since Sept 2022 • Leader of Saint-Joseph Team"
-     },
+     experiences: [
      {
           title: "🌐 Chief Technology Officer of MFINUE 2023",
           description: "Since Apr 2023 • Sustain and develop technologies that are used in 2023's Francophone Model United Nations of Eurasia (MFINUE) conference",
@@ -67,6 +64,10 @@ export const sections = [{
                title: "mfinue.org",
                href: "https://mfinue.org"
           }]
+     },
+     {
+          title: "🦠 iGEM Team Leader",
+          description: "Sept 2022 - Aug 2023 • Student Lead of Saint-Joseph Team"
      },
      {
           title: "💻 Internship at L Teknoloji",
