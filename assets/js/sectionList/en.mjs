@@ -14,21 +14,22 @@ export const sections = [{
 }, {
      title: "Accomplishments",
      experiences: [{
-          title: "🦠 Team Saint_Joseph • iGEM 2021",
+          title: "🦠 Team Saint-Joseph • iGEM 2023 🥈",
+          description: "Behcheck is a Lateral Flow Assay to help the diagnosis of Behçet's Disease.",
+          buttons: [{
+               title: "Team Wiki",
+               href: "https://2023.igem.wiki/saint-joseph/"
+          }]
+     }, {
+          title: "🦠 Team Saint_Joseph • iGEM 2021 🥈",
           description: "Cellulophile is a project enhancing 2 types of cellulases and was awarded a silver medal.",
           buttons: [{
                title: "Team Wiki",
                href: "https://2021.igem.org/Team:Saint_Joseph"
-          }, {
-               title: "Certificate",
-               href: "/assets/certs/iGEM2021.pdf"
           }]
      }, {
           title: "💻 Coder of the year",
-          description: "A  competition organized by Saint-Joseph. Competed among 10th graders in 2021-2022",
-          buttons: [{
-               title: "Award"
-          }]
+          description: "A  competition organized by Saint-Joseph. Competed among 10th graders in 2021-2022"
      }]
 }, {
      title: "Languages",
@@ -37,10 +38,10 @@ export const sections = [{
           description: "Native"
      }, {
           title: "🇬🇧 English",
-          description: "Fluent"
+          description: "Fluent - IELTS 7.0 Academic Band"
      }, {
           title: "🇫🇷 French",
-          description: "Independent User - B2"
+          description: "Independent User - DELF B2"
      }]
 },
 {
