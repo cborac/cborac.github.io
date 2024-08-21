@@ -40,10 +40,10 @@ export const sections = [{
      title: "Langues",
      experiences: [{
           title: "🇹🇷 turc",
-          description: "Natif"
+          description: "Native"
      }, {
           title: "🇬🇧 anglais",
-          description: "Fluent - IELTS 7.0 Academic Band"
+          description: "Fluente - IELTS 7.0 Groupe Academique"
      }, {
           title: "🇫🇷 français",
           description: "Certifié avec DELF B2"
@@ -99,8 +99,8 @@ export const sections = [{
                description: "Un programme intense de 4 jours dirigé par des étudiants de Harvard axé sur des activités de leadership."
           },
           {
-               title: "⭐ Future Stars (LAcadémie de Leadership)",
-               description: "Cette course de 3 semaines a le but de fournir les compétences et connaissances nécessaires pour travailler et collaborer avec des enfants et des jeunes, avec un fort accent sur la planification et l'éxecution de programmes. Pendant ce programme, les participants développent également des compétences en leadership.",
+               title: "⭐ Future Stars (L'Académie de Leadership)",
+               description: "Cette course de 3 semaines a pour fournir les compétences et connaissances nécessaires pour travailler et collaborer avec des enfants et des jeunes, avec un fort accent sur la planification et l'éxecution de programmes. Pendant ce programme, les participants développent également des compétences en leadership.",
                buttons: [{
                     title: "Transcript",
                     href: "/assets/certs/FSTranscript.pdf"
@@ -115,7 +115,7 @@ export const sections = [{
           },
           {
                title: "⛺️ Conseiller au camp au Future Stars",
-               description: "Après l'Académie de Leadership, je travaillais en tant qu'un conseiller au camp."
+               description: "Après l'Académie de Leadership, j'ai travaillé      en tant qu'un conseiller au camp."
           }]
 }, {
      title: "Certifications",
