@@ -1,172 +1,179 @@
 /**
  * @type {Section[]}
  */
- export const sections = [{
-     title: "Éducation",
+export const sections = [{
+     title: "Formation",
      experiences: [{
-          title: "📚 Lycée Français Privé Saint-Joseph Istanbul",
+          title: "📚 B. Sc. Nanobiology à TU Delft",
+          description: "2024-2027",
+          buttons: [{
+               title: "Sité de l'école",
+               href: "https://tudelft.nl/"
+          }]
+     },
+     {
+          title: "📚 Lycée Français Saint-Joseph",
           description: "2019-2024",
           buttons: [{
-               title: "Site de l'école",
-               href: "https://www.sj.k12.tr/index.php/fr/"
+               title: "Sité de l'école",
+               href: "https://sj.k12.tr/"
           }]
      }]
 }, {
      title: "Accomplissements",
      experiences: [{
-          title: "🦠 L'équipe Saint_Joseph • iGEM 2021",
-          description: "Cellulophile est un projet qui améliore 2 types de cellulases et il a reçu une médaille d'argent",
+          title: "🦠 Équipe Saint-Joseph • iGEM 2023 🥈",
+          description: "Behcheck est un kit de diagnostic pour aider identifier la maladie de Behçet.",
           buttons: [{
-               title: "Wiki",
-               href: "https://2021.igem.org/Team:Saint_Joseph"
-          }, {
-               title: "Certificat",
-               href: "/assets/certs/iGEM2021.pdf"
+               title: "Wiki de Projet",
+               href: "https://2023.igem.wiki/saint-joseph/"
           }]
      }, {
-          title: "💻 Codeur de l'année",
-          description: "Une competition organisée par Saint-Joseph. J'ai concuru parmi les 10èmes en 2021-2022",
+          title: "🦠 Équipe Saint_Joseph • iGEM 2021 🥈",
+          description: "Cellulophile est un projet de deux enzymes celullases améliorés par nous pour combattre la pollution du papiper.",
           buttons: [{
-               title: "Prix"
+               title: "Wiki de Projet",
+               href: "https://2021.igem.org/Team:Saint_Joseph"
           }]
      }]
 }, {
      title: "Langues",
      experiences: [{
           title: "🇹🇷 turc",
-          description: "langue maternelle"
+          description: "Natif"
      }, {
           title: "🇬🇧 anglais",
-          description: "courant"
+          description: "Fluent - IELTS 7.0 Academic Band"
      }, {
           title: "🇫🇷 français",
-          description: "indépendant"
+          description: "Certifié avec DELF B2"
      }]
-}, {
+},
+{
      title: "Projets",
      experiences: [{
-          title: "🌐 WebXmun",
-          description: "WebXmun est un site avec outils de base pour une session de MNU. Il inclut quelques traits dont les autres proudits n'ont pas.",
+          title: "🌐 MFINUE Connect",
+          description: "MFINUE Connect est un portail permettant aux participants de la conférence pédagogique MFINUE de partager des documents collaboratifs, et d’accéder à des informations concernant l’organisation de la conférence.",
           buttons: [{
-               title: "WebXmun"
-          }]
-     }, {
-          title: "🌿 JourVert",
-          description: "E-journal hebdomadaire écologique informant le consommateur",
-          buttons: [{
-               title: "JourVert"
+               title: "MFINUE Connect",
+               href: "https://connect.mfinue.org"
           }]
      }]
-}, {
+},
+{
      title: "Expériences",
-     experiences: [{
-          title: "💻 Stage à L Teknoloji",
-          description: "août 2021 • Travailler avec l'environnement ASP.NET (C#)",
-          buttons: [{
-               title: "Website",
-               href: "https://lengerteknoloji.com/"
+     experiences: [
+          {
+               title: "🌐 Chef de TI du MFINUE 2023",
+               description: "Avr 2023 - Déc 2023 • Soutien et développement des technologies qui sont utilisés pendant la 13ème édition de la conférence MFINUE",
+               buttons: [{
+                    title: "mfinue.org",
+                    href: "https://mfinue.org"
+               }]
+          },
+          {
+               title: "💻 Software Engineer à Ponsatlas",
+               description: "Déc 2023 - Jul 2024 • Développement des applications complémentaires pour les produit Atlassian",
+               buttons: [{
+                    title: "ponsatlas.com",
+                    href: "https://ponsatlas.com/"
+               }]
+          },
+          {
+               title: "🦠 iGEM Chef d'équipe",
+               description: "Sep 2022 - Aou 2023 • Chef de l'équipe iGEM de Saint-Joseph"
+          },
+          {
+               title: "🦠 iGEM Membre d'équipe",
+               description: "Sep 2020 - Sep 2022 • Membre de l'équipe iGEM de Saint-Joseph"
+          },
+          {
+               title: "💻 Stage à L Teknoloji",
+               description: "Aou 2021 • Travail avec ASP.NET"
           }]
-     }, {
-          title: "🪶 SUNPO Community",
-          description: "Depuis sept 2021 • Membre de l'équipe de développement de projet et de l'équipe Instgram"
-     }]
 }, {
      title: "Activités",
-     experiences: [{
-          title: "🪶 SUNPOFEST'22",
-          description: "Un activité organisé par SUNPO Community. J'était l'équipe de TI aussi une membre des personnels administratives.",
-          buttons: [{
-               title: "Certificat"
+     experiences: [
+          {
+               title: "📈 Harvard | Programme des jeunes leaders mondiaux",
+               description: "Un programme intense de 4 jours dirigé par des étudiants de Harvard axé sur des activités de leadership."
+          },
+          {
+               title: "⭐ Future Stars (LAcadémie de Leadership)",
+               description: "Cette course de 3 semaines a le but de fournir les compétences et connaissances nécessaires pour travailler et collaborer avec des enfants et des jeunes, avec un fort accent sur la planification et l'éxecution de programmes. Pendant ce programme, les participants développent également des compétences en leadership.",
+               buttons: [{
+                    title: "Transcript",
+                    href: "/assets/certs/FSTranscript.pdf"
+               }, {
+                    title: "Récommendation",
+                    href: "/assets/certs/FSRecommendation.pdf"
+               }]
+          },
+          {
+               title: "🌐 Conférences MNU",
+               description: "Participé aux plusieurs conférences de MNU."
+          },
+          {
+               title: "⛺️ Conseiller au camp au Future Stars",
+               description: "Après l'Académie de Leadership, je travaillais en tant qu'un conseiller au camp."
           }]
-     }, {
-          title: "🌲 Table-Ronde 2022",
-          description: "Un événement organisé par l'Institut français de la Turquie où des débats sur l'environnement ont eu lieu.<br>J'étais un membre de l'équipe de la préparation et j'ai participé comm un membre de la presse.",
-          buttons: [{
-               title: "Certificat"
-          }]
-     }, {
-          title: "🪶 FRZAL Sommet",
-          description: "Un activité organisé par Lycée Anatolien Fatin Rüştü Zorlu. J'étais un membre de l'équipe des relations publiques.",
-          buttons: [{
-               title: "Certificat",
-               href: "/assets/certs/FRZAL.pdf"
-          }]
-     }, {
-          title: "🌏 Délégué Exceptionnel (HAYDARPASAMUN)",
-          description: "HAYDARPASAMUN'22 • IOC",
-          buttons: [{
-               title: "Prix"
-          }, {
-               title: "Certificat"
-          }]
-     }, {
-          title: "🌏 Délégué Exceptionnel (BOGAZICIMUN Advanced)",
-          description: "BOGAZICIMUN Advanced'22 • ECOFIN",
-          buttons: [{
-               title: "Prix",
-               href: "/assets/certs/BOGAZICIMUN22_AWARD.pdf"
-          }, {
-               title: "Certificat",
-               href: "/assets/certs/BOGAZICIMUN22_CERT.pdf"
-          }]
-     }, {
-          title: "🌏 Délégué (HASALMUN)",
-          description: "HASALMUN'22 • GAISF",
-          buttons: [{
-               title: "Certificat",
-               href: "/assets/certs/HASALMUN22.pdf"
-          }]
-     }, {
-          title: "🌏 Délégué (MEDIPOLMUN)",
-          description: "MEDIPOLMUN'22 • INTERPOL",
-          buttons: [{
-               title: "Certificat",
-               href: "/assets/certs/MEDIPOLMUN22.pdf"
-          }]
-     }, {
-          title: "🌏 Délégué (MFINUE)",
-          description: "MFINUE'20 • MiniMNU",
-          buttons: [{
-               title: "Certificat",
-               href: "/assets/certs/MFINUE20.pdf"
-          }]
-     }]
 }, {
-     title: "Certificats",
+     title: "Certifications",
      experiences: [{
-          title: "🐍 Python for Everybody Specialization",
-          description: "Délivré par: University of Michigan • Coursera (mai 2021)",
+          title: "🐍 Google IT Support Specialization",
+          description: "Délivrée par: Google • Coursera (Mar 2023)",
           buttons: [{
-               title: "Certificat",
-               href: "https://www.coursera.org/account/accomplishments/specialization/Certificat/RFCXYGQTGN8G"
+               title: "Certificate",
+               href: "https://www.coursera.org/account/accomplishments/specialization/certificate/G7C7CWQBR7MV"
+          }]
+     }, {
+          title: "🐍 Python for Everybody Specialization",
+          description: "Délivrée par: University of Michigan • Coursera (Mai 2021)",
+          buttons: [{
+               title: "Certificate",
+               href: "https://www.coursera.org/account/accomplishments/specialization/certificate/RFCXYGQTGN8G"
           }]
      }, {
           title: "🌐 Web Programming",
-          description: "Délivré par: Turkcell Geleceğin Yazarları (juin 2021)",
+          description: "Délivrée par: Turkcell Geleceğin Yazarları (Jui 2021)",
           buttons: [{
-               title: "Certificat",
+               title: "Certificate",
                href: "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/sardonyx/Web%20Programlama/402"
           }]
      }, {
-          title: "💻 Node.js (Intermediate)",
-          description: "Délivré par: HackerRank (août 2021)",
+          title: "💻 REST API (Intermediate)",
+          description: "Délivrée par: HackerRank (Déc 2022)",
           buttons: [{
-               title: "Certificat",
-               href: "https://www.hackerrank.com/Certificats/18aebbf16c4f"
+               title: "Certificate",
+               href: "https://www.hackerrank.com/certificates/f93379b904ab"
+          }]
+     }, {
+          title: "💻 Node.js (Intermediate)",
+          description: "Délivrée par: HackerRank (Aou 2021)",
+          buttons: [{
+               title: "Certificate",
+               href: "https://www.hackerrank.com/certificates/18aebbf16c4f"
           }]
      }, {
           title: "💻 JavaScript (Intermediate)",
-          description: "Délivré par: HackerRank (août 2021)",
+          description: "Délivrée par: HackerRank (Aou 2021)",
           buttons: [{
-               title: "Certificat",
-               href: "https://www.hackerrank.com/Certificats/abf454be3ba2"
+               title: "Certificate",
+               href: "https://www.hackerrank.com/certificates/abf454be3ba2"
+          }]
+     }, {
+          title: "💻 CSS",
+          description: "Délivrée par: HackerRank (Mar 2023)",
+          buttons: [{
+               title: "Certificate",
+               href: "https://www.hackerrank.com/certificates/c40deb19dc1b"
           }]
      }, {
           title: "💻 C# (Basic)",
-          description: "Délivré par: HackerRank (août 2021)",
+          description: "Délivrée par: HackerRank (Aou 2021)",
           buttons: [{
-               title: "Certificat",
-               href: "https://www.hackerrank.com/Certificats/abf454be3ba2"
+               title: "Certificate",
+               href: "https://www.hackerrank.com/certificates/abf454be3ba2"
           }]
      }]
 }]

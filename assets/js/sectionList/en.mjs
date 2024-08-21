@@ -4,6 +4,14 @@
 export const sections = [{
      title: "Education",
      experiences: [{
+          title: "📚 Nanobiology BSc. at TU Delft",
+          description: "2024-2027",
+          buttons: [{
+               title: "School's Website",
+               href: "https://tudelft.nl/"
+          }]
+     },
+     {
           title: "📚 Saint-Joseph Private French High School",
           description: "2019-2024",
           buttons: [{
@@ -27,9 +35,6 @@ export const sections = [{
                title: "Team Wiki",
                href: "https://2021.igem.org/Team:Saint_Joseph"
           }]
-     }, {
-          title: "💻 Coder of the year",
-          description: "A  competition organized by Saint-Joseph. Competed among 10th graders in 2021-2022"
      }]
 }, {
      title: "Languages",
@@ -58,29 +63,38 @@ export const sections = [{
 {
      title: "Experiences",
      experiences: [
-     {
-          title: "🌐 Chief Technology Officer of MFINUE 2023",
-          description: "Since Apr 2023 • Sustain and develop technologies that are used in 2023's Francophone Model United Nations of Eurasia (MFINUE) conference",
-          buttons: [{
-               title: "mfinue.org",
-               href: "https://mfinue.org"
+          {
+               title: "🌐 Chief Technology Officer of MFINUE 2023",
+               description: "Apr 2023 - Dec 2023 • Sustain and develop technologies that are used in 2023's Francophone Model United Nations of Eurasia (MFINUE) conference",
+               buttons: [{
+                    title: "mfinue.org",
+                    href: "https://mfinue.org"
+               }]
+          },
+          {
+               title: "💻 Software Engineer at Ponsatlas",
+               description: "Dec 2023 - Jul 2024 • Development for Atlassian Marketplace apps and addons",
+               buttons: [{
+                    title: "Website",
+                    href: "https://ponsatlas.com/"
+               }]
+          },
+          {
+               title: "🦠 iGEM Team Leader",
+               description: "Sept 2022 - Aug 2023 • Student Lead of Saint-Joseph Team"
+          },
+          {
+               title: "🦠 iGEM Team Member",
+               description: "Sept 2020 - Sept 2022 • Student Member of Saint-Joseph Team"
+          },
+          {
+               title: "💻 Internship at L Teknoloji",
+               description: "Aug 2021 • Worked with ASP.NET environment (C#)",
+               buttons: [{
+                    title: "Website",
+                    href: "https://lengerteknoloji.com/"
+               }]
           }]
-     },
-     {
-          title: "🦠 iGEM Team Leader",
-          description: "Sept 2022 - Aug 2023 • Student Lead of Saint-Joseph Team"
-     },
-     {
-          title: "💻 Internship at L Teknoloji",
-          description: "Aug 2021 • Worked with ASP.NET environment (C#)",
-          buttons: [{
-               title: "Website",
-               href: "https://lengerteknoloji.com/"
-          }]
-     }, {
-          title: "🪶 SUNPO Community",
-          description: "2021-2022 • A Part of Project Development Team & Instgram Team"
-     }]
 }, {
      title: "Activities",
      experiences: [
@@ -93,55 +107,6 @@ export const sections = [{
                }]
           },
           {
-               title: "🪶 SUNPOFEST'22",
-               description: "An activity organized by SUNPO Community. Was the IT Team and a member of the administrative staffs.",
-               buttons: [{
-                    title: "Certificate",
-                    href: "/assets/certs/SUNPOFEST.pdf"
-               }]
-          }, {
-               title: "🌲 Table-Ronde 2022",
-               description: "An event organized by The French Institituon in Turkey where debates about environment took place.<br>Was in the preperation team and attended as a press member.",
-               buttons: [{
-                    title: "Certificate"
-               }]
-          }, {
-               title: "🪶 FRZAL Summit",
-               description: "An activity organized by Fatin Rüştü Zorlu Anatolian High School. Was a member of the public relations team.",
-               buttons: [{
-                    title: "Certificate",
-                    href: "/assets/certs/FRZAL.pdf"
-               }]
-          }, {
-               title: "⭐ Future Stars (Camper at Summer Development Camp)",
-               description: "Future Stars (FS) summer camps had a great impact on my life. At first, I really didn't want to go, but after my first camp, I became addicted and continued to participate for many years.",
-               buttons: [{
-                    title: "Website",
-                    href: "https://www.geleceginyildizlari.com/en/programlar/summer-development-camp/",
-               }, {
-                    title: "Certificate (2015)",
-                    href: "/assets/certs/FS2015.jpeg",
-               }, {
-                    title: "Certificate (2016)",
-                    href: "/assets/certs/FS2016.jpeg"
-               }]
-          }, {
-               title: "⭐ Future Stars (Camper at Film Camp)",
-               description: "Cinema has always been a grand interest for me. I always wanted to be in cinematography, well FS had the perfect camp. At Film Camp, I had an unforgetable experiences and friendships.",
-               buttons: [{
-                    title: "Website",
-                    href: "https://www.geleceginyildizlari.com/en/programlar/movie-camp/"
-               }, {
-                    title: "Certificate (2017)",
-                    href: "/assets/certs/FS2017.jpeg"
-               }, {
-                    title: "Certificate (2018)",
-                    href: "/assets/certs/FS2018.jpeg"
-               }, {
-                    title: "Certificate (2019)",
-                    href: "/assets/certs/FS2019.jpeg"
-               }]
-          }, {
                title: "⭐ Future Stars (Leadership Academy)",
                description: "This 3 week intensive program's objective is to provide the participants with the necessary skills and knowledge related to working with children and youth with a strong focus on programing planning and execution. While in this program, participants also develop in leadership, teambuilding and community development skills.",
                buttons: [{
@@ -151,51 +116,20 @@ export const sections = [{
                     title: "Recommendation",
                     href: "/assets/certs/FSRecommendation.pdf"
                }]
-          }, {
-               title: "🌏 Outstanding Delegate (HAYDARPASAMUN)",
-               description: "HAYDARPASAMUN'22 • IOC",
-               buttons: [{
-                    title: "Award"
-               }, {
-                    title: "Certificate"
-               }]
-          }, {
-               title: "🌏 Outstanding Delegate (BOGAZICIMUN Advanced)",
-               description: "BOGAZICIMUN Advanced'22 • ECOFIN Committee",
-               buttons: [{
-                    title: "Award",
-                    href: "/assets/certs/BOGAZICIMUN22_AWARD.pdf"
-               }, {
-                    title: "Certificate",
-                    href: "/assets/certs/BOGAZICIMUN22_CERT.pdf"
-               }]
-          }, {
-               title: "🌏 Delegate (HASALMUN)",
-               description: "HASALMUN'22 • GAISF Committee",
-               buttons: [{
-                    title: "Certificate",
-                    href: "/assets/certs/HASALMUN22.pdf"
-               }]
-          }, {
-               title: "🌏 Delegate (MEDIPOLMUN)",
-               description: "MEDIPOLMUN'22 • INTERPOL Committee",
-               buttons: [{
-                    title: "Certificate",
-                    href: "/assets/certs/MEDIPOLMUN22.pdf"
-               }]
-          }, {
-               title: "🌏 Delegate (MFINUE)",
-               description: "MFINUE'20 • MiniMNU",
-               buttons: [{
-                    title: "Certificate",
-                    href: "/assets/certs/MFINUE20.pdf"
-               }]
+          },
+          {
+               title: "🌐 MUN Conferences",
+               description: "Participated in various local MUN conferences."
+          },
+          {
+               title: "⛺️ Camp Counselor at Future Stars",
+               description: "After the Leadership Academy, I worked as a camp counselor at Future Stars."
           }]
 }, {
      title: "Certifications",
      experiences: [{
           title: "🐍 Google IT Support Specialization",
-          description: "Issued by: Google • Coursera (March 2023)",
+          description: "Issued by: Google • Coursera (Mar 2023)",
           buttons: [{
                title: "Certificate",
                href: "https://www.coursera.org/account/accomplishments/specialization/certificate/G7C7CWQBR7MV"
@@ -237,7 +171,7 @@ export const sections = [{
           }]
      }, {
           title: "💻 CSS",
-          description: "Issued by: HackerRank (March 2023)",
+          description: "Issued by: HackerRank (Mar 2023)",
           buttons: [{
                title: "Certificate",
                href: "https://www.hackerrank.com/certificates/c40deb19dc1b"
