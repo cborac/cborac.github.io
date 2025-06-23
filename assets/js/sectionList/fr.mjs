@@ -46,7 +46,7 @@ export const sections = [{
           description: "Fluente - IELTS 7.0 Groupe Academique"
      }, {
           title: "🇫🇷 français",
-          description: "Certifié avec DELF B2"
+          description: "Fluente - DELF C1"
      }]
 },
 {
