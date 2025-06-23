@@ -46,7 +46,7 @@ export const sections = [{
           description: "Fluent - IELTS 7.0 Academic Band"
      }, {
           title: "🇫🇷 French",
-          description: "Independent User - DELF B2"
+          description: "Fluent - DALF C1"
      }]
 },
 {
