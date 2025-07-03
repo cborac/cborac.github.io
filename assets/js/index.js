@@ -15,7 +15,7 @@ document.body.append(el)
 ScrollReveal({
      delay: 1.5,
      scale: .9
-}).reveal(".divided-list-obj");
+}).reveal(".card-container");
 
 
 ScrollReveal({

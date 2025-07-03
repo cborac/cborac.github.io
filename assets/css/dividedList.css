@@ -1,64 +1,74 @@
-.obj-title {
+.card-title {
      margin: 0;
      margin-top: 1rem;
      font-weight: 500;
+     font-size: 20px;
+}
+.card-container {
+     background: white;
+     border: 1px solid #e0e0e0;
+     border-radius: 16px;
+     padding: 16px;
+     flex: 1;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
 }
 
-.obj-timestamp {
+.card-img {
+     display: inline;
+     height: 20px;
+     width: 20px;
+     transform: translateY(3px);
+     border-radius: 4px;
      margin: 0;
-     margin-bottom: 1rem;
-     font-style: italic;
 }
 
-.divided-list-obj {
-     border-bottom: solid 2px #ebebeb;
-}
-
-.attachment-row {
-     margin-top: 1.4rem;
-     margin-bottom: 1rem;
-}
-
-.attachment {
-     width: fit-content;
-     height: fit-content;
-     position: relative;
-     padding: 3px;
-     padding-right: 9px;
-     padding-left: 9px;
-     text-decoration: none;
-     color: var(--accent-color);
-     text-align: center;
-     filter: brightness(1);
-     transition: filter .2s ease-in-out;
-     display: inline-block;
-     margin-top: .6rem;
-}
-
-.attachment[disabled] {
-     filter: grayscale(1);
-}
-
-.attachment[disabled]:hover {
-     filter: grayscale(1);
-}
-
-.attachment:hover {
-     filter: brightness(.6);
-}
-
-.attachment::before {
-     content: "­";
+.card-btn {
      background: var(--accent-color);
+     color: white;
+     padding: 6px 12px;
+     border-radius: 6px;
+     margin-left: auto;
+     position: relative;
+     overflow: hidden;
+     user-select: none;
+}
+
+.card-btn::after {
+     content: "";
+     top: 0;
+     right: 0;
      width: 100%;
      height: 100%;
+     z-index: 2;
      position: absolute;
-     opacity: .2;
-     border-radius: 12px;
-     transform: translateX(-9px) translateY(-1.75px);
+     transition: background .2s ease-out;
+}
+
+.card-btn:hover::after {
+     background: rgba(0, 0, 0, .1);
+}
+
+.card-btn-list {
+     width: 100%;
+     display: flex;
+     justify-content: right;
+     gap: 5px;
+}
+
+.card-container * {
      margin: 0;
 }
 
-.attachment:visited {
-     color: var(--accent-color);
+.card-timestamp {
+     color: #666;
+}
+
+.card-grid {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 10px;
 }

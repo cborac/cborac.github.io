@@ -9,24 +9,72 @@ body {
      margin: 0;
      width: 100%;
      min-height: 100%;
-     background: #fff;
+     background: #F8F9FA;
      font-family: "Poppins";
      display: flex;
      flex-direction: column;
      align-items: center;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     text-rendering: optimizeLegibility;
 }
 
-.introbg {
-     background: var(--accent-color);
-     height: 30rem;
+.main-container > .article {
+     margin-top: 0px;
+}
+
+.hero-container {
      width: 100%;
+     background: var(--accent-color);
+     height: fit-content;
+}
+
+.hero-text {
+     margin-top: 2rem;
+}
+
+.hero-text>p {
+     margin: 0;
+     color: white;
+}
+
+
+.hero {
+     max-width: 1200px;
+     width: 100%;
+     height: 22rem;
+     margin: 0 auto;
+     display: flex;
+     padding-top: 3rem;
+     position: relative;
+}
+
+.hero>p {
+     margin: 0;
+}
+
+
+.introbg {
+     width: 25rem;
+     margin-left: -2rem;
      display: flex;
      justify-content: top;
      align-items: center;
      flex-direction: column;
+     overflow: visible;
      color: #fff;
-     overflow: hidden;
+     overflow: visible;
      position: relative;
+     height: max-content;
+     height: 22rem;
+}
+
+.intro-box-container {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     overflow-y: clip;
+     overflow-x: visible;
 }
 
 .intro-box {
@@ -35,6 +83,7 @@ body {
      width: 25rem;
      background: #fff;
      bottom: -12.5rem;
+     left: 0;
      transform: rotate(45deg);
      border-radius: 4rem;
      opacity: .2;
@@ -42,13 +91,23 @@ body {
 
 .intro-img {
      position: absolute;
-     height: 25rem;
+     height: 22rem;
      bottom: 0px;
      transform-origin: center bottom;
 }
 
-.introbg > * {
-     margin: 0;
+.social-media-bar {
+     margin: 12px 0px;
+     display: flex;
+     gap: 10px;
+     width: fit-content;
+}
+
+.social-media-bar .card-img {
+     height: 20px;
+     width: 20px;
+     display: block;
+     transform: none;
 }
 
 .nav-name {
@@ -63,7 +122,7 @@ body {
 }
 
 .tag {
-     color: var(--accent-color);
+     color: white;
      border-radius: 6px;
      position: relative;
      text-align: center;
@@ -77,7 +136,7 @@ body {
 
 .tag::before {
      content: "­";
-     background: var(--accent-color);
+     background: rgba(255, 255, 255, .8);
      width: 100%;
      height: 100%;
      position: absolute;
@@ -108,15 +167,20 @@ body {
 }
 
 .main-container {
-     width: 75vw;
-     margin-top: 5rem;
+     max-width: 1200px;
+     width: 100%;
+     margin-top: 2rem;
      display: flex;
 }
 
-.tags-inline > p {
+.tags-inline>p {
      display: inline-block;
      margin: 0;
      margin-top: 4px;
+}
+
+.hidden-desktop {
+     display: none;
 }
 
 .tags-inline {
@@ -128,12 +192,32 @@ body {
      width: 25%;
 }
 
+.langs {
+     color: rgba(255, 255, 255, 0.3);
+     position: absolute;
+     right: 0;
+     top: 1rem;
+     user-select: none;
+}
+
+.langs > a {
+     cursor: pointer;
+     opacity: .4;
+     color: white;
+}
+
+.langs > a:hover {
+     opacity: .7;
+}
+
+
 .article {
-     width: 75%;
+     max-width: 1200px;
+     width: 100%;
      margin-top: 3rem;
 }
 
-.article > * {
+.article>* {
      margin: 0;
 }
 
@@ -153,18 +237,18 @@ body {
      align-items: center;
 }
 
-.footer > p {
+.footer>p {
      margin: 0;
      font-size: .9em;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1260px) {
      .article {
           width: 90vw;
      }
 
-     .main-container > .article {
-          width: 90%;
+     .main-container>.article {
+          width: 100;
      }
 
      .main-container {
@@ -172,18 +256,59 @@ body {
      }
 }
 
-@media only screen and (max-width: 1027px) {
+@media only screen and (max-width: 950px) {
+     .hero {
+          flex-direction: column-reverse;
+          align-items: center;
+          text-align: center;
+          height: auto;
+          padding-top: 0rem;
+          gap: 1rem;
+          overflow-x: clip;
+     }
+
+     .langs {
+          bottom: .5rem;
+          top: unset;
+          left: 0;
+          z-index: 99;
+          width: 100vw;
+          text-align: center;
+     }
+
+     .hidden-mobile {
+          display: none !important;
+     }
+
+     .hidden-desktop {
+          display: flex;
+     }
+
+     .hero-text>p {
+          padding: 0 10px;
+          box-sizing: border-box;
+          max-width: unset !important;
+     }
+
+     .introbg {
+          margin: 0 !important;
+     }
+
+     .social-media-bar {
+          margin: 0 auto;
+     }
+
      .main-container {
           flex-direction: column;
           margin-top: 1rem;
      }
 
-     .main-container > * {
+     .main-container>* {
           width: 100%;
           margin: 0;
      }
 
-     .main-container > .tags-container {
+     .main-container>.tags-container {
           margin-top: 2rem;
      }
 }

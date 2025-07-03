@@ -7,12 +7,13 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta content="Bora Ciner's Portfolio" property="og:title" />
-     <meta content="Hello! My name is Bora, well Can Bora but I never use Can. I consider myself as a science enthusiast, I mean I can say that my favorite science is biology but I really can't seperate others. Even though my dream career..." property="og:description" />
+     <meta content="Hello! My name is Bora, well Can Bora but I never use Can. I consider myself as a science enthusiast, I mean I can say that my favorite science is biology but I really can't seperate others. Even though my dream career..."
+          property="og:description" />
      <meta content="https://boraciner-is.me/" property="og:url" />
      <meta content="https://boraciner-is.me/assets/images/thumbnail.png" property="og:image" />
      <meta content="#ff6348" data-react-helmet="true" name="theme-color" />
      <meta name="twitter:card" content="summary_large_image">
-     
+
      <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
 
      <link rel="stylesheet" href="./assets/css/dividedList.css">
@@ -27,72 +28,70 @@
 </head>
 
 <body>
-     <div class="introbg">
-          <p class="nav-name">Bora Ciner</p>
-          <p>Wannabe Genetic Engineer</p>
-          <div class="intro-box intro-anim">
+     <div class="hero-container">
+          <div class="hero">
+               <div class="langs">
+                    <a onclick="updateLang('en')" lang="en">EN</a>
+                    |
+                    <a onclick="updateLang('fr')" lang="fr">FR</a>
+                    |
+                    <a onclick="updateLang('tr')" lang="tr">TR</a>
+               </div>
+               <div class="introbg">
+                    <div class="intro-box-container">
+                         <div class="intro-box intro-anim">
+                         </div>
+                    </div>
+                    <img src="/assets/images/BORA.png" alt="A cartoon avatar with glasses smiling"
+                         class="intro-img intro-anim">
+               </div>
+               <div class="hero-text">
+                    <div class="social-media-bar hidden-desktop">
+                         <a href="https://github.com/cborac" target="_blank"><img src="./assets/images/github.png" class="card-img"></a>
+                         <a href="https://www.linkedin.com/in/bora-ciner/" target="_blank"><img src="./assets/images/linkedin.png" class="card-img"></a>
+                    </div>
+                    <p class="nav-name">Bora Ciner</p>
+                    <p style="margin-top: -12px;" translate="subtitle">Wannabe Genetic Engineer</p>
+                    <p style="margin-top: 10px; max-width: 500px; margin-bottom: 10px;" translate="text">Hello! I am a science enthusiast
+                         that is currently
+                         studying Nanobiology in TU Delt. I am interested in computational sciences and biology.</p>
+                    <div class="tags-inline" translate="tags">
+                         <p><span class="tag">#molecular-biology</span></p>
+                         <p><span class="tag">#science</span></p>
+                         <p><span class="tag">#programming</span></p>
+                         <p><span class="tag">#INFP-T</span></p>
+                         <p><span class="tag">#5w6</span></p>
+                    </div>
+                    <div class="social-media-bar hidden-mobile">
+                         <a href="https://github.com/cborac"><img src="./assets/images/github.png" class="card-img"></a>
+                         <a href=""><img src="./assets/images/linkedin.png" class="card-img"></a>
+                    </div>
+               </div>
           </div>
-          <img src="/assets/images/BORA.png" alt="A cartoon avatar with glasses smiling" class="intro-img intro-anim">
      </div>
 
-     <div class="main-container">
-          <div class="article" style="margin-top: 0px;">
-               <h1 class="title">Who I am</h1>
-               <p>Hello! My name is Bora, well Can Bora, but I never use Can. I consider myself a science enthusiast. I
-                    can say that my favorite domain of science is biology, but I can't separate others. Even though my dream
-                    career is genetic engineering or bioinformatics, I still want to work on my other interests, such as
-                    physics or chemistry. Coding is like a hobby for me. I don't want to study in that branch, but I use
-                    coding on a daily basis. I often do bulk tasks or even my homework with it. Since the preparatory
-                    grade, I have been interested in iGEM for quite while now. It had been my primary dedication through
-                    high school.</p>
-          </div>
+     <div class="main-container" translate="education">
           <div class="tags-container">
-               <h1 class="title">Tags</h1>
-               <div class="tags-inline">
-                    <p><span class="tag">#molecular-biology</span></p>
-                    <p><span class="tag">#science</span></p>
-                    <p><span class="tag">#programming</span></p>
-                    <p><span class="tag">#INFP-T</span></p>
-                    <p><span class="tag">#5w6</span></p>
+               <h1 class="title" translate="technologies">Technologies</h1>
+               <div class="tags-inline intro-anim">
+                    <p><span class="tag" color="#092CDA">#typescript</span></p>
+                    <p><span class="tag" color="#4CA146">#nodejs</span></p>
+                    <p><span class="tag" color="#ff6348">#git</span></p>
+                    <p><span class="tag" color="#FFA502">#javascript</span></p>
+                    <p><span class="tag" color="#09375B">#lua</span></p>
+                    <p><span class="tag" color="#B04B6C">#csharp</span></p>
+                    <p><span class="tag" color="#0969DA">#react</span></p>
+                    <p><span class="tag" color="#0969DA">#react-native</span></p>
+                    <p><span class="tag" color="#1E28D9">#python</span></p>
+                    <p><span class="tag" color="#C7212F">#java</span></p>
                </div>
           </div>
      </div>
 
-     <div class="article" id="pre-tag">
-          <h1 class="title">Technologies</h1>
-          <div class="tags-inline intro-anim">
-               <p><span class="tag" color="#092CDA">#typescript</span></p>
-               <p><span class="tag" color="#4CA146">#nodejs</span></p>
-               <p><span class="tag" color="#ff6348">#git</span></p>
-               <p><span class="tag" color="#FFA502">#javascript</span></p>
-               <p><span class="tag" color="#09375B">#lua</span></p>
-               <p><span class="tag" color="#B04B6C">#csharp</span></p>
-               <p><span class="tag" color="#0969DA">#react</span></p>
-               <p><span class="tag" color="#0969DA">#react-native</span></p>
-               <p><span class="tag" color="#1E28D9">#python</span></p>
-               <p><span class="tag" color="#C7212F">#java</span></p>
-               <a href="https://github.com/cborac" target="_blank">
-                    <p><span class="tag outlined" color="#212121">See me on GitHub</span></p>
-               </a>
-          </div>
-     </div>
-
-     <div class="article">
-          <h1 class="title">Contact Me</h1>
-          <div class="divided-list-obj">
-               <h2 class="obj-title">📧 School Email • bciner@tudelft.nl</h2>
-               <div class="attachment-row">
-                    <a href="sendto:bciner@tudelft.nl" class="attachment" target="_blank"><i
-                              class="fa-solid fa-link"></i> Send Me an Email</a>
-               </div>
-          </div>
-          <div class="divided-list-obj">
-               <h2 class="obj-title" style="margin-bottom: 1rem;">🕹️ Discord Account • Sards#7800</h2>
-          </div>
-     </div>
+     <div id="pre-tag"></div>
 
      <div class="footer" id="footer">
-          <p>Can Bora Ciner © 2024</p>
+          <p>Can Bora Ciner © 2025</p>
           <p>Profile photo by makówka on picrew</p>
      </div>
 </body>

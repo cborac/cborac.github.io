@@ -2,35 +2,19 @@
  * @type {Section[]}
  */
 export const sections = [{
-     title: "Education",
-     experiences: [{
-          title: "📚 Nanobiology BSc. at TU Delft",
-          description: "2024-2027",
-          buttons: [{
-               title: "School's Website",
-               href: "https://tudelft.nl/"
-          }]
-     },
-     {
-          title: "📚 Saint-Joseph Private French High School",
-          description: "2019-2024",
-          buttons: [{
-               title: "School's Website",
-               href: "https://sj.k12.tr/"
-          }]
-     }]
-}, {
      title: "Accomplishments",
      experiences: [{
-          title: "🦠 Team Saint-Joseph • iGEM 2023 🥈",
+          title: "🦠 Team Saint-Joseph",
           description: "Behcheck is a Lateral Flow Assay to help the diagnosis of Behçet's Disease.",
+          timestamp: "iGEM 2023 - Silver Medal 🥈",
           buttons: [{
                title: "Team Wiki",
                href: "https://2023.igem.wiki/saint-joseph/"
           }]
      }, {
           title: "🦠 Team Saint_Joseph • iGEM 2021 🥈",
-          description: "Cellulophile is a project enhancing 2 types of cellulases and was awarded a silver medal.",
+          description: "Cellulophile is a project enhancing 2 types of cellulases to combat against paper pollution.",
+          timestamp: "iGEM 2023 - Silver Medal 🥈",
           buttons: [{
                title: "Team Wiki",
                href: "https://2021.igem.org/Team:Saint_Joseph"
@@ -39,14 +23,17 @@ export const sections = [{
 }, {
      title: "Languages",
      experiences: [{
-          title: "🇹🇷 Turkish",
-          description: "Native"
+          title: "Turkish",
+          description: "Native",
+          img: "tr.jpg"
      }, {
-          title: "🇬🇧 English",
-          description: "Fluent - IELTS 7.0 Academic Band"
+          title: "English",
+          description: "Fluent - IELTS 7.0 Academic Band",
+          img: "gb.webp  "
      }, {
-          title: "🇫🇷 French",
-          description: "Fluent - DALF C1"
+          title: "French",
+          description: "Fluent - DALF C1",
+          img: "fr.png"
      }]
 },
 {
@@ -62,10 +49,18 @@ export const sections = [{
 },
 {
      title: "Experiences",
+     minWidth: "48%",
      experiences: [
           {
+               title: "🦠 iGEM Advisor",
+               description: "Advisor of Team Saint-Joseph",
+               timestamp: "Since Dec 2024",
+               minWidth: "100%"
+          },
+          {
                title: "🌐 Chief Technology Officer of MFINUE 2023",
-               description: "Apr 2023 - Dec 2023 • Sustain and develop technologies that are used in 2023's Francophone Model United Nations of Eurasia (MFINUE) conference",
+               description: "Sustain and develop technologies that are used in 2023's Francophone Model United Nations of Eurasia (MFINUE) conference",
+               timestamp: "Apr 2023 - Dec 2023",
                buttons: [{
                     title: "mfinue.org",
                     href: "https://mfinue.org"
@@ -73,7 +68,8 @@ export const sections = [{
           },
           {
                title: "💻 Software Engineer at Ponsatlas",
-               description: "Dec 2023 - Jul 2024 • Development for Atlassian Marketplace apps and addons",
+               description: "Development for Atlassian Marketplace apps and addons",
+               timestamp: "Dec 2023 - Jul 2024",
                buttons: [{
                     title: "Website",
                     href: "https://ponsatlas.com/"
@@ -81,11 +77,13 @@ export const sections = [{
           },
           {
                title: "🦠 iGEM Team Leader",
-               description: "Sept 2022 - Aug 2023 • Student Lead of Saint-Joseph Team"
+               description: "Student Lead of Saint-Joseph Team",
+               timestamp: "Sept 2022 - Aug 2023"
           },
           {
                title: "🦠 iGEM Team Member",
-               description: "Sept 2020 - Sept 2022 • Student Member of Saint-Joseph Team"
+               description: "Student Member of Saint-Joseph Team",
+               timestamp: "Sept 2020 - Sept 2022"
           },
           {
                title: "💻 Internship at L Teknoloji",
@@ -101,10 +99,7 @@ export const sections = [{
           {
                title: "📈 Harvard Young Global Leaders Program",
                description: "An intensive 4-day program led by Harvard students focusing on leadership activities, a contextual problem and how to solve it through a group effort.",
-               buttons: [{
-                    title: "Cerificate",
-                    href: "/assets/certs/HPYL.pdf"
-               }]
+               minWidth: "100%"
           },
           {
                title: "⭐ Future Stars (Leadership Academy)",
@@ -115,7 +110,8 @@ export const sections = [{
                }, {
                     title: "Recommendation",
                     href: "/assets/certs/FSRecommendation.pdf"
-               }]
+               }],
+               minWidth: "100%"
           },
           {
                title: "🌐 MUN Conferences",
@@ -128,60 +124,98 @@ export const sections = [{
 }, {
      title: "Certifications",
      experiences: [{
-          title: "🐍 Google IT Support Specialization",
-          description: "Issued by: Google • Coursera (Mar 2023)",
+          title: "Google IT Support Specialization",
+          description: "Google",
+          timestamp: "Mar 2023",
+          img: "google.png"
+     }, {
+          title: "Python for Everybody Specialization",
+          description: "U of Michigan",
+          timestamp: "May 2021",
+          img: "michigan.jpg"
+     }, {
+          title: "Web Programming",
+          description: "Turkcell Geleceğin Yazarları",
+          timestamp: "June 2021",
+          img: "turkcell.png"
+     }, {
+          title: "REST API (Intermediate)",
+          description: "HackerRank",
+          timestamp: "Dec 2022",
+          img: "hackerrank.png"
+     }, {
+          title: "Node.js (Intermediate)",
+          description: "HackerRank",
+          timestamp: "Aug 2021",
+          img: "hackerrank.png"
+     }, {
+          title: "JavaScript (Intermediate)",
+          description: "HackerRank",
+          timestamp: "Aug 2021",
+          img: "hackerrank.png"
+     }, {
+          title: "CSS",
+          description: "HackerRank",
+          timestamp: "Mar 2023",
+          img: "hackerrank.png"
+     }, {
+          title: "C# (Basic)",
+          description: "HackerRank",
+          timestamp: "Aug 2021",
+          img: "hackerrank.png"
+     }]
+}, {
+     title: "Contact Me",
+     experiences: [{
+          title: "📧 bciner@tudelft.nl",
+          description: "School Email",
           buttons: [{
-               title: "Certificate",
-               href: "https://www.coursera.org/account/accomplishments/specialization/certificate/G7C7CWQBR7MV"
+               href: "mailto:bciner@tudelft.nl",
+               title: "Send me an Email"
           }]
      }, {
-          title: "🐍 Python for Everybody Specialization",
-          description: "Issued by: University of Michigan • Coursera (May 2021)",
-          buttons: [{
-               title: "Certificate",
-               href: "https://www.coursera.org/account/accomplishments/specialization/certificate/RFCXYGQTGN8G"
-          }]
-     }, {
-          title: "🌐 Web Programming",
-          description: "Issued by: Turkcell Geleceğin Yazarları (June 2021)",
-          buttons: [{
-               title: "Certificate",
-               href: "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/sardonyx/Web%20Programlama/402"
-          }]
-     }, {
-          title: "💻 REST API (Intermediate)",
-          description: "Issued by: HackerRank (Dec 2022)",
-          buttons: [{
-               title: "Certificate",
-               href: "https://www.hackerrank.com/certificates/f93379b904ab"
-          }]
-     }, {
-          title: "💻 Node.js (Intermediate)",
-          description: "Issued by: HackerRank (Aug 2021)",
-          buttons: [{
-               title: "Certificate",
-               href: "https://www.hackerrank.com/certificates/18aebbf16c4f"
-          }]
-     }, {
-          title: "💻 JavaScript (Intermediate)",
-          description: "Issued by: HackerRank (Aug 2021)",
-          buttons: [{
-               title: "Certificate",
-               href: "https://www.hackerrank.com/certificates/abf454be3ba2"
-          }]
-     }, {
-          title: "💻 CSS",
-          description: "Issued by: HackerRank (Mar 2023)",
-          buttons: [{
-               title: "Certificate",
-               href: "https://www.hackerrank.com/certificates/c40deb19dc1b"
-          }]
-     }, {
-          title: "💻 C# (Basic)",
-          description: "Issued by: HackerRank (Aug 2021)",
-          buttons: [{
-               title: "Certificate",
-               href: "https://www.hackerrank.com/certificates/abf454be3ba2"
-          }]
+          title: "🕹️ Sards (sards)",
+          description: "Discord Account"
      }]
 }]
+
+/**
+ * @type {{
+ *   subtitle: string,
+ *   text: string,
+ *   tags: string[],
+ *   education: Section,
+ *   technologies: string
+ * }}
+ */
+export const hero = {
+     subtitle: "Wannabe Genetic Engineer",
+     text: `Hello! I am a science enthusiast that is currently studying
+     Nanobiology in TU Delt. I am interested in computational sciences
+     and biology.`,
+     tags: ["molecular-biology", "science", "programming", "INFP-T", "5w6"],
+     education: {
+          title: "Education",
+          experiences: [{
+               title: "📖 Nanobiology BSc.",
+               description: "TU Delft & Erasmus MC",
+               timestamp: "2024-2027",
+               buttons: [{
+                    title: "TU Delft",
+                    href: "https://www.tudelft.nl/en/education/programmes/bachelors/nb/bsc-nanobiology"
+               }, {
+                    title: "EMC",
+                    href: "https://www.eur.nl/en/erasmusmc/bachelor/nanobiology"
+               }]
+          }, {
+               title: "🏫 French High School",
+               description: "Saint-Joseph Istanbul",
+               timestamp: "2019-2024",
+               buttons: [{
+                    title: "School's Website",
+                    href: "https://sj.k12.tr"
+               }]
+          }]
+     },
+     technologies: "Technologies"
+}
